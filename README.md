@@ -67,20 +67,29 @@ Industry and activity details
 
 This dataset supports both natural language querying through the chatbot and structured analysis through the comparison dashboard.
 
-Tech Stack
-Python
-Pandas
-Streamlit
-LLM-based RAG pipeline
-Excel dataset
-💡 Use Cases
-Market research
-Competitor analysis
-Startup ecosystem exploration
-Investment insights
-Interactive data exploration using natural language
-🔮 Future Improvements
-Add filtering by industry and region
-Improve semantic search with better embeddings
-Deploy as a web application
-Integrate external company data APIs
+### Tech Stack
+
+- Python
+- Pandas
+- Streamlit
+- LLM-based RAG pipeline
+- Excel dataset
+
+---
+
+## 💡 Use Cases
+
+- Market research
+- Competitor analysis
+- Startup ecosystem exploration
+- Investment insights
+- Interactive data exploration using natural language
+
+---
+
+## 🔮 Future Improvements
+
+- Add filtering by industry and region
+- Improve semantic search with better embeddings
+- Deploy as a web application
+- Integrate external company data APIs
