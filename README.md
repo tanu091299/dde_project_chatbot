@@ -29,32 +29,34 @@ This project enables users to query company data using natural language and perf
 ## 🗂️ Project Structure, Installation, Usage, Dataset, and Tech Stack
 
 
+```bash
 dde_project_chatbot/
-│
-├── dde_rag_app.py        # RAG-based chatbot for Q&A
-├── dde_comp_app.py       # Company comparison dashboard
-├── romania_hgfs.xlsx     # Dataset of Romanian HGFs
-├── requirements.txt      # Dependencies
-└── README.md             # Documentation
-
+├── dde_rag_app.py
+├── dde_comp_app.py
+├── romania_hgfs.xlsx
+├── requirements.txt
+└── README.md
+```
 This project is organized into two main application files: dde_rag_app.py for the chatbot and dde_comp_app.py for company comparison and analytics. The dataset is stored in romania_hgfs.xlsx, and all required Python libraries are listed in requirements.txt.
 
 Installation
 
 Clone the repository and install dependencies:
-
+```
 git clone https://github.com/tanu091299/dde_project_chatbot.git
 cd dde_project_chatbot
 pip install -r requirements.txt
+```
 Usage
 
 Run the chatbot application:
-
+```
 python dde_rag_app.py
-
+```
 Run the company comparison dashboard:
-
+```
 python dde_comp_app.py
+```
 Dataset
 
 The project uses a dataset of Romanian Consistent High-Growth Firms (HGFs), which includes:
